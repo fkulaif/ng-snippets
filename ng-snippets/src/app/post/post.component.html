@@ -1,0 +1,6 @@
+<p>post works!</p>
+<textarea placeholder="text" rows="5"
+    [value]="newPost" #postInput>
+</textarea>
+<button (click)="addPost(postInput)">Save</button>
+<div>{{ newPost }}</div>
